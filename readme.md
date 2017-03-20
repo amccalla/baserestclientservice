@@ -7,21 +7,21 @@ This pod also have template attached to it which can be easily adding to your lo
 
 <br/>
 
-##Requirements
+## Requirements
 BaseRestClientService works on iOS 8.0 and greater. It requires Xcode 7.0 or greater, as it uses Swift 2.0.
 
 <br/>
-##Usage
+## Usage
 
-###Step 1: Installing templates to your xcode
+### Step 1: Installing templates to your xcode
 After installing pod you will have BaseRestService.xctemplates. Copy BaseRestService.xctemplates and paste it in ~/Library/Developer/xcode/templates/
 
 <br/>
-###Step 2: Setup Host url
+### Step 2: Setup Host url
 In  your project info.plist file please added property row with key "HostUrl" and value as base url for your rest service. Here in Demo we are using apiary so we added HostUrl as "http://private-3cc05-contactsdemo1.apiary-mock.com".
 
 <br/>
-###Step 3: Create need service classes base on BaseRestClientService.swift
+### Step 3: Create need service classes base on BaseRestClientService.swift
 
 Add a new file by selecting BaseRestService under iOS/Templates as shown in figure below
 
