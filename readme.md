@@ -25,7 +25,6 @@ In  your project info.plist file please added property row with key "HostUrl" an
 
 Add a new file by selecting BaseRestService under iOS/Templates as shown in figure below
 
-![Imgur](http://i.imgur.com/zFwZBrjl.png)
 
 Complete the `resourcePath()` by returning proper path for this service.
 
